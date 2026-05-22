@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ls-adf-scanner
+    env: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
